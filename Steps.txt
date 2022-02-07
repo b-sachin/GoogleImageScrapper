@@ -1,0 +1,15 @@
+1. Select Environment
+    1.1 Open Anaconda Command Prompt -> write: conda create -n GoogleImageScrapper python==3.6.9
+    1.2 Open PyCharm -> write new project name: GoogleImageScrapper -> Select Previously configured interpreter -> Click on ... -> Select: Conda Environment -> Click on: ... infront of Interpreter -> Navigate to \Anaconda3\envs\GoogleImageScrapperV2 -> python.exe -> Click on: OK
+2. Install all Requirement Packages:
+    2.1 Open Terminal: write: pip install -r requirements.txt
+    2.2 Make sure you have installed selenium, pillow and requests
+        if not then in terminal write: pip install selenium, pillow, requests
+
+3. Make sure you have Crome/Mozilla installed on your machine
+4. Check your Crome version:
+    4.1 How to check -> Open Google Crome -> click on three vertical dots on top-right corner -> Goto: Help -> About Google Crome
+    4.2 My crome version is: Version 98.0.4758.82
+5. Download the same crome driver from link: https://chromedriver.storage.googleapis.com/index.html
+    5.1 download : chromedriver_win32.zip (For Windows User)
+    5.2 unzip -> store 'chromedriver.exe' under project folder at path=./
